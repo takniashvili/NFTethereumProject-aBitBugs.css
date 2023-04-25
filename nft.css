@@ -1,0 +1,171 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    background-color: hsl(217, 54%, 11%);
+    height: 820px;
+}
+
+main {
+    background-color: hsl(216,50%,16%);
+    width: 350px;
+    height: 596px;
+    border-radius: 15px;   
+}
+
+.main {
+    padding-left: 24px;
+}
+
+h1 {   
+    color: white;
+    font-size: 22px;
+    line-height: 28px;
+    font-family:'Outfit', sans-serif;
+    height: 600;   
+}
+
+h1:hover {
+    color:#00FFF8;
+}
+
+p {
+    height: 52px;
+    color: #8BACD9;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 25px 0;
+}
+
+h2 {
+    height: 20px;
+    width: 81px;
+    color: #8BACD9;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    height: 20px;
+    
+}
+
+a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    height: 20px;
+    left: 47.51%;
+    right: 1.1%;
+    top: calc(50% - 20px/2);
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px; 
+    color: #FFFFFF;      
+
+}
+ 
+.rectangle {
+
+    height: 1px;
+    width: 302px;
+    border-radius: 0px;
+    background: #2E405A;
+    margin: 25px 0;
+    
+}
+
+.equilibrium {
+    margin: 20px 0;
+    height: 302px;
+    width: 302px; 
+    border-radius: 8px;    
+}
+
+.overlay:hover .equilibrium {
+    opacity: 0.5;
+}
+
+.overlay:hover .eyeicon{
+    visibility: visible;
+}
+
+.eyeicon {
+    
+    position: absolute;
+    top: 35.50%;
+    left: 49.50%;
+    transform: translate(-35.50%, -49.50%);
+    visibility: hidden;
+}
+
+
+.pricetime {
+     
+    display: flex;
+    gap: 120px;
+    height: 20px; 
+    font-weight: 600;
+}
+
+.eth {
+    color:#00FFF8;
+    
+
+}
+   
+.ethicon {    
+    height: 18px;
+    width: 12px; 
+     
+}
+
+.clockicon {
+    height: 18.5px;
+    width: 18.5px;  
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 25px;
+}
+
+.attribution a { 
+    color: hsl(0, 67%, 26%); 
+}
+
+.footer {
+    display:Flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.creator {
+
+    text-decoration:none;
+}
+
+.creator:hover {
+    color:#00FFF8;
+}
+
+.avatar {
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    width: 33px;
+    height: 33px;
+    margin-top: -5px; 
+    margin-right: 16px;
+    border-radius: 50%;
+    
+}
